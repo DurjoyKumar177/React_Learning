@@ -1,11 +1,12 @@
 import React from "react";
 //import { Link } from 'react-router-dom' // Import Link from react-router-dom
-import { NavLink } from "react-router-dom"; //we can use active navber using NavLink it's important.
+import { NavLink,useNavigate } from "react-router-dom"; //we can use active navber using NavLink it's important.
 
 const Navbar = () => {
+  const navigate= useNavigate();
   return (
     <nav className="bg-gray-800 shadow-lg">
-      
+
       {/* for active navbar effect. */}
       <style jsx>{`
         .active {
@@ -56,6 +57,11 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
+
+            {/* <button onClick={()=> navigate('/Navigate')} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"></button> //general navigation using logic */}
+          <button onClick={()=> navigate('/Navigate', {replace:true})} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Get Started
+          </button>
         </div>
       </div>
     </nav>

@@ -6,6 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import RootLayout from './layout/RootLayout';
+import Navigate from './pages/Navigate';
 
 const App = () => {
 
@@ -16,6 +17,7 @@ const App = () => {
                 <Route path='product' element={<Product />} />
                 <Route path='contact' element={<Contact />} />
                 <Route path='about' element={<About />} />
+                <Route path='navigate' element={<Navigate />} />
             </Route>
         )
     ) 
