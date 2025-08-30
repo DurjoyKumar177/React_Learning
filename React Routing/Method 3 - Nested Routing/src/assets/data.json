@@ -1,0 +1,102 @@
+{
+    "jobs": [
+        {
+            "id": 1,
+            "title": "Software Engineer",
+            "company": "Tech Company",
+            "location": "Remote",
+            "description": "Develop and maintain web applications."
+        },
+        {
+            "id": 2,
+            "title": "Product Manager",
+            "company": "Business Inc.",
+            "location": "New York, NY",
+            "description": "Lead product development and strategy."
+        },
+        {
+            "id": 3,
+            "title": "UX Designer",
+            "company": "Creative Agency",
+            "location": "San Francisco, CA",
+            "description": "Design user-friendly interfaces and experiences."
+        },
+        {
+            "id": 4,
+            "title": "Data Scientist",
+            "company": "Analytics Co.",
+            "location": "Remote",
+            "description": "Analyze and interpret complex data sets."
+        },
+        {
+            "id": 5,
+            "title": "DevOps Engineer",
+            "company": "Tech Inc.",
+            "location": "Remote",
+            "description": "Manage and maintain infrastructure and applications."
+        },
+        {
+            "id": 6,
+            "title": "Digital Marketing Specialist",
+            "company": "Marketing Agency",
+            "location": "New York, NY",
+            "description": "Develop and execute marketing strategies."
+        },
+        {
+            "id": 7,
+            "title": "Senior Software Engineer",
+            "company": "Tech Solutions",
+            "location": "San Francisco, CA",
+            "description": "Develop and maintain complex software applications."
+        },
+        {
+            "id": 8,
+            "title": "Back-end Engineer",
+            "company": "Tech Inc.",
+            "location": "Remote",
+            "description": "Develop and maintain server-side applications."
+        },
+        {
+            "id": 9,
+            "title": "Front-end Engineer",
+            "company": "Tech Solutions",
+            "location": "San Francisco, CA",
+            "description": "Develop and maintain client-side applications."
+        },
+        {
+            "id": 10,
+            "title": "Quality Assurance Engineer",
+            "company": "Tech Solutions",
+            "location": "Remote",
+            "description": "Develop and maintain software testing processes."
+        },
+        {
+            "id": 11,
+            "title": "Technical Writer",
+            "company": "Tech Solutions",
+            "location": "San Francisco, CA",
+            "description": "Develop and maintain software documentation."
+        },
+        {
+            "id": 12,
+            "title": "UX Researcher",
+            "company": "Creative Agency",
+            "location": "New York, NY",
+            "description": "Conduct research to improve user experience."
+        },
+        {
+            "id": 13,
+            "title": "Product Designer",
+            "company": "Tech Solutions",
+            "location": "San Francisco, CA",
+            "description": "Design and develop product features."
+        },
+        {
+            "id": 14,
+            "title": "Cloud Engineer",
+            "company": "Tech Solutions",
+            "location": "Remote",
+            "description": "Manage and maintain cloud infrastructure and applications."
+        }
+    ]
+}

@@ -56,6 +56,14 @@ const Navbar = () => {
                 Product
               </NavLink>
             </li>
+            <li className="mr-6">
+              <NavLink
+                to="/jobs"
+                className="text-xl text-white hover:text-gray-300"
+              >
+                Jobs
+              </NavLink>
+            </li>
           </ul>
 
             {/* <button onClick={()=> navigate('/Navigate')} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"></button> //general navigation using logic */}
