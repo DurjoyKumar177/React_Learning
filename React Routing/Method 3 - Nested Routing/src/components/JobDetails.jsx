@@ -32,7 +32,7 @@ export const JobDetailsLoader = async ({params}) => {
     const {id} = params;
     const res = await fetch(`http://localhost:5000/jobs/${id}`);
     if (!res.ok) {
-        throw new Error('Failed to fetch job details');
+        throw Error('Failed to fetch job details');
     }
     return res.json();
 }
